@@ -1,116 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="../static/css/reset.css" rel="stylesheet">
-    <link href="../static/css/common.css" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/inputs.css">
-    <link rel="stylesheet" href="../static/css/card.css">
-    <link rel="stylesheet" href="../static/css/modal.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="../static/css/reset.css" rel="stylesheet" />
+    <link href="../static/css/common.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/inputs.css" />
+    <link rel="stylesheet" href="../static/css/card.css" />
+    <link rel="stylesheet" href="../static/css/modal.css" />
 
-    <link href="../static/css/header.css" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/banner.css">
-    <link rel="stylesheet" href="../static/css/footer.css">
-    <link rel="stylesheet" href="../static/css/productos.css">
-    <link rel="stylesheet" href="../static/css/responsibe.css">
-    <link rel="stylesheet" href="../static/css/paginacion.css">
-    <link rel="stylesheet" href="../static/css/load.css">
+    <link href="../static/css/header.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/banner.css" />
+    <link rel="stylesheet" href="../static/css/footer.css" />
+    <link rel="stylesheet" href="../static/css/productos.css" />
+    <link rel="stylesheet" href="../static/css/responsibe.css" />
+    <link rel="stylesheet" href="../static/css/paginacion.css" />
+    <link rel="stylesheet" href="../static/css/load.css" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap"
-          rel="stylesheet">
-    <link rel="icon" href="../static/assets/logos/Vector.svg">
-    <script defer src="../static/js/validacionFormularios/validacionFormularioContacto.js"></script>
-    <script defer type="module" src="../static/js/controladores/LitarProductosController.js"></script>
-    <script defer type="module" src="../static/js/controladores/filtradoProductosController.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../static/assets/logos/Vector.svg" />
+    <script
+      defer
+      src="../static/js/validacionFormularios/validacionFormularioContacto.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      src="../static/js/controladores/LitarProductosController.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      src="../static/js/controladores/filtradoProductosController.js"
+    ></script>
     <script defer type="module" src="../static/js/modal/modal.js"></script>
-    <script defer src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
-
+    <script
+      defer
+      src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"
+    ></script>
 
     <title>Alura Geek</title>
-</head>
-<body>
-
-<header class="header">
-
-
-    <section class="header__logo-busqueda">
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__logo-busqueda">
         <div class="logo">
-            <a href="../index.html">
-                <img alt="" src="../static/assets/logos/Vector.svg">
-                <img alt="" src="../static/assets/logos/AluraGeek-1.svg">
-                <img alt="" src="../static/assets/logos/AluraGeek.svg">
-            </a>
-
+          <a href="../index.html">
+            <img alt="" src="../static/assets/logos/Vector.svg" />
+            <img alt="" src="../static/assets/logos/AluraGeek-1.svg" />
+            <img alt="" src="../static/assets/logos/AluraGeek.svg" />
+          </a>
         </div>
         <div class="header__search">
-            <input class="input-search" placeholder="¿Que deseas buscar?" type="text">
-            <img class="header__icon-search" src="../static/assets/icons/lupa.svg">
-
+          <input
+            class="input-search"
+            placeholder="¿Que deseas buscar?"
+            type="text"
+          />
+          <img
+            class="header__icon-search"
+            src="../static/assets/icons/lupa.svg"
+          />
         </div>
+      </section>
 
-    </section>
+      <button class="btn-login">Login</button>
+    </header>
 
-    <button class="btn-login">Login</button>
-
-
-
-</header>
-
-<main class="productos_all">
-    <section class="productos ">
-
+    <main class="productos_all">
+      <section class="productos">
         <div class="productos__leyenda all">
-            <h1>Todos los Productos</h1>
-            <button class="btn-banner" onclick="window.location.href='formularioProductos.html'">Agregar Producto</button>
-
+          <h1>Todos los Productos</h1>
+          <button
+            class="btn-banner"
+            onclick="window.location.href='formularioProductos.html'"
+          >
+            Agregar Producto
+          </button>
         </div>
         <section class="load">
-            <div class="load__container">
-                <img class="load__icon" src="../static/assets/logos/Vector.svg" alt="">
-                <p>Disculpa las molestias!!</p>
-            </div>
+          <div class="load__container">
+            <img
+              class="load__icon"
+              src="../static/assets/logos/Vector.svg"
+              alt=""
+            />
+            <p>Estamos trabajando en ello</p>
+          </div>
         </section>
         <div class="productos__items">
-
-
-
-            <section class="load">
-                <div class="load__container">
-                    <img class="load__icon" src="../static/assets/logos/Vector.svg" alt="">
-                    <p>Disculpa las molestias!!</p>
-                </div>
-            </section>
-
+          <section class="load">
+            <div class="load__container">
+              <img
+                class="load__icon"
+                src="../static/assets/logos/Vector.svg"
+                alt=""
+              />
+              <p>Estamos trabajando en ellos</p>
+            </div>
+          </section>
         </div>
-    </section>
-    <section class="paginacion">
+      </section>
+      <section class="paginacion">
         <button class="btn-anterior">Anterior</button>
         <button class="btn-siguiente">Siguiente</button>
-    </section>
+      </section>
+    </main>
 
-</main>
-
-
-
-
-
-<footer class="footer">
-
-    <div class="footer__logo">
-
-        <img src="../static/assets/logos/Vector.svg">
-        <img src="../static/assets/logos/AluraGeek-1.svg">
-        <img src="../static/assets/logos/AluraGeek.svg">
-    </div>
-    <div class="footer__enlaces">
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="../static/assets/logos/Vector.svg" />
+        <img src="../static/assets/logos/AluraGeek-1.svg" />
+        <img src="../static/assets/logos/AluraGeek.svg" />
+      </div>
+      <div class="footer__enlaces">
         <div class="footer__logo-enlaces">
-
-            <img src="../static/assets/logos/Vector.svg">
-            <img src="../static/assets/logos/AluraGeek-1.svg">
-            <img src="../static/assets/logos/AluraGeek.svg">
+          <img src="../static/assets/logos/Vector.svg" />
+          <img src="../static/assets/logos/AluraGeek-1.svg" />
+          <img src="../static/assets/logos/AluraGeek.svg" />
         </div>
         <a href="">Quienes somos</a>
         <a href="">Politicas de privacida</a>
@@ -118,47 +130,64 @@
         <a href="">Nuestras tiendas</a>
         <a href="">Quiero ser franquiciado</a>
         <a href="">Anuncie aqui</a>
-
-    </div>
-    <div class="footer__contacto">
+      </div>
+      <div class="footer__contacto">
         <span>Hable con nosotros</span>
         <form class="footer__form" action="" novalidate>
-            <div class="input__label">
-                <label class="input__label-label" for="">Nombre</label>
-                <input name="nombre"  class="input__label-input" type="text" required maxlength="40">
-                <p class="text-error" id="error-nombre"></p>
-            </div>
+          <div class="input__label">
+            <label class="input__label-label" for="">Nombre</label>
+            <input
+              name="nombre"
+              class="input__label-input"
+              type="text"
+              required
+              maxlength="40"
+            />
+            <p class="text-error" id="error-nombre"></p>
+          </div>
 
-            <div class="input__label">
-                <label class="input__label-label" for="" >Mensaje</label>
-                <textarea name="mensaje" class="input__label-area" name="" id="" required maxlength="100" ></textarea>
-                <p class="text-error" id="error-mensaje"></p>
-            </div>
-            <input class="input__label-btn" type="submit" value="Enviar mensaje">
+          <div class="input__label">
+            <label class="input__label-label" for="">Mensaje</label>
+            <textarea
+              name="mensaje"
+              class="input__label-area"
+              name=""
+              id=""
+              required
+              maxlength="100"
+            ></textarea>
+            <p class="text-error" id="error-mensaje"></p>
+          </div>
+          <input
+            class="input__label-btn"
+            type="submit"
+            value="Enviar mensaje"
+          />
         </form>
-
+      </div>
+    </footer>
+    <div class="footer__creditos">
+      <div class="footer__creditos-redes">
+        <a href="https://www.linkedin.com/in/ignaciofemenia/"
+          ><img class="redes" src="../static/assets/icons/linkedin.svg" alt=""
+        /></a>
+        <a href="https://github.com/ignafemenia/Challenge-Alura-3"
+          ><img class="redes" src="../static/assets/icons/github.svg" alt=""
+        /></a>
+      </div>
+      <p>Femenia Correa Ignacio Joaquin</p>
+      <p>2022</p>
     </div>
 
-</footer>
-<div class="footer__creditos">
-    <div class="footer__creditos-redes">
-        <a href="https://www.linkedin.com/in/hector-gallego-20b985176/"><img class="redes" src="../static/assets/icons/linkedin.svg" alt=""></a>
-        <a href="https://github.com/Hector-Gallego/e-commerce.git"><img class="redes" src="../static/assets/icons/github.svg" alt=""></a>
-    </div>
-    <p>Desarrollado por Héctor Hernández</p>
-    <p>2022</p>
+    <section class="modal"></section>
 
-</div>
-
-<section class="modal">
-
-</section>
-
-<section class="error__busqueda">
-    <img class="error__img" src="../static/assets/logos/resultado.svg" alt="">
-    <p class="error__parrafo">No hay resultados</p>
-</section>
-
-
-</body>
+    <section class="error__busqueda">
+      <img
+        class="error__img"
+        src="../static/assets/logos/resultado.svg"
+        alt=""
+      />
+      <p class="error__parrafo">No hay resultados</p>
+    </section>
+  </body>
 </html>
