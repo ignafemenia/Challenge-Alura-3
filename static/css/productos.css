@@ -1,0 +1,62 @@
+.productos{
+    padding: 0 20rem 0 20rem;
+    margin-top: 5rem;
+
+}
+
+.productos__leyenda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.productos__leyenda h1{
+    font-size: 3rem;
+}
+.productos__ver-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productos__ver-todo a{
+    font-size: 1.6rem;
+    padding-right: 2rem;
+    color: #2A7AE4;
+
+}
+
+.productos__items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.principal{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.productos_all {
+    background: #F5F5F5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.error__busqueda{
+    width: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0 5rem 0;
+
+}
+.error__img{
+    width: 50%;
+}
+.error__parrafo{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+}
+
+

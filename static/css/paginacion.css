@@ -1,0 +1,28 @@
+.paginacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginacion button{
+    border: 0;
+    text-decoration: none;
+    background-color: #2A7AE4;
+    padding: 2rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    margin: 1rem 2rem;
+}
+.paginacion button:disabled{
+    background-color: rgba(42, 122, 228, 0.67);
+}
+.paginacion button:disabled:hover{
+    background-color: rgba(42, 122, 228, 0.67);
+    color: #FFFFFF;
+    border: 0;
+}
+
+.paginacion button:hover{
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    border: solid 1px #2A7AE4;
+}

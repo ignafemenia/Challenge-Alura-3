@@ -1,0 +1,9 @@
+body{
+    font-family: 'Open Sans', sans-serif´, 'Raleway', sans-serif, "Roboto Light", Calibri;
+}
+:root{
+    font-size: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,78 @@
+.input__label{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 1rem;
+    border-bottom: solid 1px #C8C8C8;
+}
+.input__label-label{
+    color: #A2A2A2;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.input__label-input{
+    font-size: 1.6rem;
+    border: 0;
+    font-family: Raleway;
+
+}
+
+.input__label-area{
+    margin-top: 2rem;
+    outline: none;
+    border: 0;
+    font-size: 1.6rem;
+    font-family: Raleway;
+    padding: 1rem;
+    height: 8rem;
+    resize: none;
+
+}
+
+.input__label-btn{
+    margin-top: 1rem;
+    width: 30%;
+    background: #2A7AE4;
+    border: 0;
+    color: #FFFFFF;
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 1.5rem;
+}
+.input__label-btn:hover{
+    background: #FFFFFF;
+    border: solid 1px #2A7AE4;
+    padding: 2rem 1rem 2rem 1rem;
+    color: #2A7AE4;
+}
+
+.input-btn{
+    background: #2A7AE4;
+    border: 0;
+    width: 100%;
+    padding: 2rem 1rem 2rem 1rem;
+    color: #FFFFFF;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.input-btn:hover{
+    background: #FFFFFF;
+    border: solid 1px #2A7AE4;
+    width: 100%;
+    padding: 2rem 1rem 2rem 1rem;
+    color: #2A7AE4;
+}
+
+.input__image{
+    background: #FFFFFF;
+    height: 20rem;
+    border: dashed #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+

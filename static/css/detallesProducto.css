@@ -1,0 +1,30 @@
+.detalles-producto{
+    padding: 0 20rem 0 20rem;
+
+    display: flex;
+}
+.detalles-producto img{
+    width: 50%;
+    border-radius: 10px;
+}
+.descripcion-producto{
+    margin: 5rem 0 0 2rem;
+}
+.descripcion-producto h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.descripcion-producto span{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.descripcion-producto p{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+}
+
+
